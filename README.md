@@ -5,4 +5,5 @@ Idea what I want to do
 -search box
 -saved pictures (my board)
 
-<img width="1920" height="1080" alt="Screenshot (172)" src="https://github.com/user-attachments/assets/e86cc8e5-4cab-4269-bd86-d1b7869fe776" />
+<img width="1904" height="1039" alt="image" src="https://github.com/user-attachments/assets/559e3ba0-0490-43e0-a1bb-75daf150d3ae" />
+
