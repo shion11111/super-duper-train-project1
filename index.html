@@ -38,9 +38,17 @@
       <div class="container">
 
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Explore more..." aria-label="Search">
+          <input id="searchInput" class="form-control me-2" type="search" placeholder="Explore more..." aria-label="Search">
 
-          <button class="btn btn-outline-success" type="submit">Search</button>
+    
+          <button id="searchButton" class="btn btn-outline-success" type="submit">Search</button>
+
+          <p id="searchMessage"></p>
+          <ul id="searchResults"></ul>
+
+          <script src="pages/data.js"></script>
+          <script src="scripts/controlled-object-search.js"></script>
+
         </form>
       </div>
      </div>

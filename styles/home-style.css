@@ -21,10 +21,14 @@ h4 {
 }
 
 h5 {
+    display: block;
     text-align: center;
     font-size: 18px;
-    margin: 0 15px;
+    margin-bottom: 10px;
 }
+
+
+
 /* Top Navigation bar */
 nav {
   text-align: center;
