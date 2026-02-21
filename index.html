@@ -5,63 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project1</title>
-  <link href="styles/home-style.css" rel="stylesheet">
+  <link href="styles/index-style.css" rel="stylesheet">
 </head>
 
 <body>
 
   <!-- Navar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top p-0">
+    <div class="container-fluid flex-column align-items-stretch px-0">
 
-      <!-- row 1: Intro -->
-      <div class="main" href="#">
-        <h1>TripBoard 🌍✈️</h1>
-        <h2>Welcome to TripBoard!</h2>
-
-      </div>
-      
-      <div class="collapse navbar-collapse" id="navbarNav">
-        
-        <a class="nav-link" type="button" href="#">Home</a>
-        <a class="nav-link" type="button" href="#">Board</a>
-        <a class="nav-link" type="button" href="#">Saved</a>
-
-        <button class="btn btn-outline-primary" type="button" onclick="window.location.href='pages/login.html'">Login</button>
-        <button id="btnLogout" class="btn btn-outline-light ms-sm-3 d-none" type="button">logout</button>
-      </div>
-
+    <div class="logo">
+      <h1>🌍 TripBoard ✈️</h1>
+      <p>Welcome to TripBoard App!</p>
     </div>
 
-    <!-- row 2: search-->
-     <div class="bg-light border-top py-3">
-      <div class="container">
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Board</a>
+      <a href="#">Saved</a>
+    </div>
 
-        <form class="d-flex">
-          <input id="searchInput" class="form-control me-2" type="search" placeholder="Explore more..." aria-label="Search">
-
-    
-          <button id="searchButton" class="btn btn-outline-success" type="submit">Search</button>
-
-          <p id="searchMessage"></p>
-          <ul id="searchResults"></ul>
-
-          
-          <script src="scripts/controlled-object-search.js"></script>
-
-        </form>
-      </div>
-     </div>
+    </div>
   </nav>
 
+  <!--Main containt-->
+  <div class="text-center">
+    <h1>Hello Travel Lovers🙌</h1>
+    <h2>This is the travel ideas based on Shion's vision</h2>
+    <h2>To get started, please login.</h2>
+  </div>
 
-  <h1>Hello Travel Lovers🙌</h1>
-  <h4>This is the travel ideas based on Shion's vision</h4>
-
-  <h2>The places I went</h2>
-  <a href ='pages/content.html'>content "cards"</a>
-  <p>pictures</p>
-
+  <div class="text-center mt-4"> 
+    <button class="btn btn-outline-primary" type="button" onclick="window.location.href='pages/login.html'">Login</button>        
+  </div>
 
  
   
@@ -80,9 +56,7 @@
             <a href="#" class="text-dark">Home</a>
             <a href="#" class="text-dark">Board</a>
             <a href="#" class="text-dark">Saved</a>
-        </div>
-        
-        <div class="col-md-4 mb-3">
+       
           <h5 class="text-uppercase">Contact</h5>
             <a href="#" class="text-dark">Email Us</a>
             <a href="#" class="text-dark">Support</a>
