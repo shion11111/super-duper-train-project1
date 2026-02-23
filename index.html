@@ -4,58 +4,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello Internet</title>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-  <link href="styles/login-style.css" rel="stylesheet">
-  
-  <style>
-    body{
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 20px;
-      background-color: whitesmoke;
-    }
-
-    h1 {
-      color:rgb(4, 4, 247)
-    }
-
-    h2 {
-      color: rgb(60, 163, 177);
-      background-color:pink
-    }
-
-
-  </style>
-
+  <title>Project1</title>
+  <link href="styles/index-style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <h1>🙌Hello Internet🙌</h1>
-  <p>from Shion</p>
+  <!-- Navar -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top p-0">
+    <div class="container-fluid flex-column align-items-stretch px-0">
 
-  <h2>Features</h2>
-  <ul>
-    <li>login</li>
-    <li>search</li>
-    <li>content <a href ='pages/content.html'>content "cards" </a>with tags</li>
-    <li>footer</li>
-  </ul>
+    <div class="logo">
+      <h1>🌍 TripBoard ✈️</h1>
+      <p>Welcome to TripBoard App!</p>
+    </div>
 
-  <h2>Where are we?</h2>
-  <ul>
-    <li>We are on our App!</li>
-    <li>GithHub URL: <a href="https://github.com/shion11111/super-duper-train-project1"> Shion's GitHub</a></li> 
-  </ul>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="pages/home.html">Board</a>
+      <a href="#">Gallery</a>
+    </div>
 
-  <h2>Where are we going?</h2>
-  <ul>
-    <li>Let's login!</li>
-  </ul>
+    </div>
+  </nav>
 
-  <a href="pages/login.html">Login</a>
+  <!--Main containt-->
+  <div class="text-center">
+    <h1>Hello Travel Lovers🙌</h1>
+    <h2>This is the travel ideas based on Shion's vision</h2>
+    <h2>To get started, please login.</h2>
+  </div>
+
+  <div class="text-center mt-4"> 
+    <button class="btn btn-outline-primary" type="button" onclick="window.location.href='pages/login.html'">Login</button>        
+  </div>
+
+ 
+  
+  <!-- Footer -->
+  <footer class="mt-auto py-3 bg-light border-top">
+    <div class="container">
+      <div class="row text-center">
+        
+        <div class="col-md-4 mb-3">
+          <h4 class="text-uppercase">TripBoard</h4>
+          <p class="mb-0">A travel planning app for sharing and discovering travel ideas.</p>
+        </div>  
+
+        <div class="col-md-4 mb-3">
+          <h5 class="text-uppercase">Links</h5>
+            <a href="index.html" class="text-dark">Home</a>
+            <a href="pages/home.html" class="text-dark">Board</a>
+            <a href="#" class="text-dark">Gallery</a>
+       
+          <h5 class="text-uppercase">Contact</h5>
+            <a href="#" class="text-dark">Email Us</a>
+            <a href="#" class="text-dark">Support</a>
+            <a href="https://github.com/shion11111/super-duper-train-project1" class="text-dark">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="scripts/loginout-script.js"></script>
+  
 
 </body>
 

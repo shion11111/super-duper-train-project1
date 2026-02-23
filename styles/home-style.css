@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+  background: white !important;
+  padding: 25px 40px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* Home button */
+.navbar-brand {
+  font-size: 22px;
+  font-weight: 800;
+  color: #222 !important;
+  background: none;
+  border: none;
+}
+
+/* Logout button */
+#btnLogout {
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-weight: 600;
+}
+
+/* ================= HERO SECTION ================= */
+
+.main {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.main h1 {
+  font-size: 44px;
+  font-weight: 800;
+  color: #333;
+}
+
+.main h2 {
+  margin-top: 10px;
+  color: #555;
+  font-weight: 400;
+}
+
+/* ================= SEARCH SECTION ================= */
+
+
+
+/* Search input */
+.search-container {
+  display: flex;
+  justify-content: center; 
+  gap: 10px; 
+  width: 100%;
+  max-width: 400px; 
+}
+
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto; /* center horizontally */
+  
+}
+
+/* Results dropdown */
+#searchResults {
+  position: absolute;
+  top: 100%; /* right below input */
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0 10px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  display: none; /* hide by default */
+  z-index: 100;
+}
+
+/* Each item */
+#searchResults li {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#searchResults li:hover {
+  background-color: #ff6b9d10; /* soft hover */
+}
+
+#searchInput {
+  border-radius: 30px;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+}
+
+/* Search button */
+
+#searchButton {
+
+  background-color: #ff6b9d !important;
+  border: none !important;
+  border-radius: 30px !important;
+  padding: 10px 25px !important;
+  font-weight: 600;
+  color: white !important;
+  box-shadow: 0 6px 15px rgba(255, 107, 157, 0.4);
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+#searchButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 107, 157, 0.5);
+}
+
+/* ================= TRAVEL IDEAS SECTION ================= */
+
+.container h2 {
+  margin-top: 40px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+/* Travel cards placeholder styling */
+#travelIdeasContainer a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #444;
+  transition: 0.3s ease;
+}
+
+#travelIdeasContainer a:hover {
+  color: #ff6b9d;
+}
