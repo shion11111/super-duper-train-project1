@@ -1,4 +1,4 @@
-# CIS 376 Spring 2026 Course Page
+# CIS 376 Spring 2026 Course Page - 🌍Trip Board ✈️
 A web app that will inspire users trip destinations.
 
 ## Authorship:
