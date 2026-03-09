@@ -1,6 +1,8 @@
 # CIS 376 Spring 2026 Project 1 -TripBoard
-### Shion's trip memories.
-### Created by: Shion Kishaba
+Shion's trip memories.
+
+
+Created by: Shion Kishaba
 
 Resources:
 Bootstrap
