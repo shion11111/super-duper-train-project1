@@ -2,10 +2,13 @@
 A web app that will inspire users trip destinations
 
 ## Authorship:
-Created by Shion Kishaba
-Resources:
-Bootstrap, Google Fonts, images, inspired by pinterest
+Created by:
 
+Shion Kishaba
+
+Resources:
+
+Bootstrap, Google Fonts, images, inspired by pinterest
 
 ## User Story
 As a travel lover
