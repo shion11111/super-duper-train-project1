@@ -38,11 +38,11 @@ Tested on Chrome, Safari, mobile, and desktop.
 ## Code block and explanation
 Here's how the login flow works.
 
-from ```pages/login.html
+```pages/login.html
 <button id="loginBtn" class="btn btn-primary p-2 fs-4">Login</button>
 ```
 
-from ```scripts/login-script.js
+```scripts/login-script.js
 const login = document.getElementById('loginBtn');
 
 //pass an Immediately Invoked Function Expression: IIFE.
