@@ -38,10 +38,12 @@ Tested on Chrome, Safari, mobile, and desktop.
 ## Code block and explanation
 Here's how the login flow works.
 
+- pages/login.html
 ```pages/login.html
 <button id="loginBtn" class="btn btn-primary p-2 fs-4">Login</button>
 ```
 
+-scripts/login-script.js
 ```scripts/login-script.js
 const login = document.getElementById('loginBtn');
 
