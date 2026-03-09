@@ -2,14 +2,38 @@
 // toast msg upon logout 
 
 document.addEventListener('DOMContentLoaded', () => {
+  const userGreeting = document.getElementById('userGreeting');
+  const searchClass = document.getElementsByClassName('searchClass');
+  userGreeting.textContent = '';
 
-  showSignInOut(); 
+  const authStatus = isAuthN(); //resolve into boolean t/f  
+  console.log('isAuthN?', authStatus);
 
-  document.getElementById('btnLogout').addEventListener('click', ()=>{
-    showLogoutToast(); 
-    sessionStorage.clear();
-    showSignInOut(); 
-  }); 
+  showSignInOut();
+
+  if (authStatus == true) {
+    userGreeting.textContent = 'Hello, ' + sessionStorage.getItem('username');
+
+    Object.keys(searchClass).forEach(key => {
+      searchClass[key].removeAttribute('disabled');
+    });
+  } 
+
+
+
+document.getElementById('btnLogout').addEventListener('click', () => {
+  showLogoutToast();
+  sessionStorage.clear();
+  console.log('isAuthN?', sessionStorage.getItem('isAuthN'));
+  showSignInOut();
+  userGreeting.textContent = '';
+
+  Object.keys(searchClass).forEach(key => {
+    searchClass[key].disabled = true;
+    searchClass[key].value = '';
+    });
+
+  });
 
 });
 

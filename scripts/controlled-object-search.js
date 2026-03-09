@@ -2,12 +2,12 @@
 
 const jsObjectData = [
 /* 🌐 */
-    { id: 1, continent: "North America", country: "The United States", city: "New York", link: "pages/usa.html"},
-    { id: 2, continent: "North America", country: "Canada", city: "Toronto", link: "pages/canada.html"},
-    { id: 3, continent: "Europe", country: "United Kingdom", city: "London", link: "pages/uk.html"},
-    { id: 4, continent: "Europe", country: "France", city: "Paris", link: "pages/france.html"},
-    { id: 5, continent: "Asia", country: "Japan", city: "Tokyo", link: "pages/japan.html"},
-    { id: 6, continent: "Asia", country: "China", city: "Beijing", link: "pages/china.html"},
+    { id: 1, continent: "North America", country: "The United States", city: "New York", link: "../pages/new-york.html"},
+    { id: 2, continent: "North America", country: "The United States", city: "California", link: "../pages/california.html"},
+    { id: 3, continent: "Europe", country: "Switzerland", city: "St.Gallen", link: "../pages/switzerland.html"},
+    { id: 4, continent: "Europe", country: "Germany", city: "Nuremberg", link: "../pages/germany.html"},
+    { id: 5, continent: "Asia", country: "Japan", city: "Tokyo", link: "../pages/japan.html"},
+    { id: 6, continent: "Asia", country: "Korea", city: "Seoul", link: "../pages/korea.html"},
    
 ]
 

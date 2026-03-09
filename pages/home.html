@@ -15,10 +15,12 @@
         <div class="container-fluid">
 
             <!-- row 1: logout -->
-              <div class="w-100 px-3 py-2 d-flex align-items-center">
-        <button class="navbar-brand fw-bold mb-0" type="button" onclick="window.location.href='../index.html'">Home</button>
+          <div class="w-100 px-3 py-2 d-flex align-items-center">
+            <button class="btn btn-outline-light ms-sm-3 d-none" type="button" onclick="window.location.href='../pages/home.html'">Home</button>
 
-        <button id="btnLogout" class="btn btn-outline-light ms-sm-3 d-none" type="button">logout</button>
+            <button class="btn btn-outline-light ms-sm-3 d-none" type="button" onclick="window.location.href='../index.html'">logout</button>
+          </div>
+        </div> 
 
     </nav>
 
@@ -52,13 +54,62 @@
       <script src="../scripts/controlled-object-search.js"></script>
 
 
-     <div class="container mt-4">
-      <h2>Travel Ideas</h2>
-      <div class="row" id="travelIdeasContainer">
-        <!-- Travel idea cards will be dynamically inserted here -->
+    <!-- Travel idea cards will be dynamically inserted here -->
+    <h2>Travel Ideas</h2>
+    <div id="travelIdeasContainer" class="d-flex flex-wrap justify-content-center gap-4">
+      <a href="japan.html" class="card-link">
+        <div class="card">
+          <img src="../images/japan/japan.png" alt="Tokyo" style="width:100%">
+          <h3>Tokyo, Japan</h3>
+          <p>Experience the vibrant culture and delicious cuisine of Japan's capital.</p>
+       </div>
+      </a>
+      
+      <a href="korea.html" class="card-link">
+        <div class="card">
+          <img src="../images/korea/korea.png" alt="Seoul" style="width:100%">
+          <h3>Seoul, South Korea</h3>
+          <p>Discover the dynamic blend of tradition and modernity in Seoul.</p>
+        </div>
+      </a>
 
-        <a href="content.html">Content Page</a>
-      </div>
+      <a href="new-york.html" class="card-link">
+        <div class="card">
+          <img src="../images/newyork/new-york.png" alt="New York" style="width:100%">
+          <h3>New York, USA</h3>
+          <p>Explore the iconic landmarks and diverse culture of the Big Apple.</p>
+        </div>
+      </a>
+
+      <a href="california.html" class="card-link">
+        <div class="card">
+          <img src="../images/california/california.png" alt="California" style="width:100%">
+          <h3>California, USA</h3>
+          <p>Discover the beautiful landscapes and vibrant culture of California.</p>
+        </div>
+      </a>
+
+      <a href="switzerland.html" class="card-link">
+        <div class="card">
+          <img src="../images/switzerland/switzerland.png" alt="Switzerland" style="width:100%">
+          <h3>Switzerland</h3>
+          <p>Experience the stunning landscapes and rich culture of Switzerland.</p>
+        </div>
+      </a>
+
+      <a href="germany.html" class="card-link">
+        <div class="card">
+          <img src="../images/germany/germany.png" alt="Germany" style="width:100%">
+          <h3>Germany</h3>
+          <p>Discover the rich history and vibrant culture of Germany.</p>
+        </div>
+      </a>
+
+    </div>
+
+
+  
+
 
       
 
