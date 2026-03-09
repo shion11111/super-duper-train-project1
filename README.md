@@ -2,9 +2,9 @@
 Shion's trip memories.
 
 
-Created by: Shion Kishaba
+### Created by: Shion Kishaba
 
-Resources:
+### Resources:
 Bootstrap
 Google Fonts
 Unsplash images
@@ -43,7 +43,7 @@ Here's how the login flow works.
 <button id="loginBtn" class="btn btn-primary p-2 fs-4">Login</button>
 ```
 
--scripts/login-script.js
+- scripts/login-script.js
 ```scripts/login-script.js
 const login = document.getElementById('loginBtn');
 
