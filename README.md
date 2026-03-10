@@ -1,5 +1,6 @@
 # CIS 376 Spring 2026 Course Page - 🌍Trip Board ✈️
 A web app that inspires users to discover new travel destinations.
+I put a lot of effort into developing the home page and on each content pages, including the search results and slideshow sections.
 
 ## Authorship:
 Created by: Shion Kishaba
@@ -30,6 +31,8 @@ https://username.github.io/travel-app
 Tested on Chrome, Safari, mobile, and desktop.
 
 ## Code sample
+Here's how login flow works.
+
 - pages
 ```pages/login.html
 <button id="loginBtn" class="btn btn-primary p-2 fs-4">Login</button>
