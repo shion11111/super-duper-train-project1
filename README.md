@@ -1,5 +1,5 @@
 # CIS 376 Spring 2026 Course Page - 🌍Trip Board ✈️
-A web app that will inspire users trip destinations.
+A web app that inspires users to discover new travel destinations.
 
 ## Authorship:
 Created by: Shion Kishaba
@@ -8,8 +8,8 @@ Resources: Bootstrap, Google Fonts, images, inspired by pinterest
 
 ## User Story
 As a travel lover
-I want to give user inspirations of next travel destinations by putting pictures
-So that they can get information visually and make them more excited to go travel
+I want to inspire users with pictures of travel destinations
+So that they can explore places visually and feel excited about their next trip.
 
 ## Model -Pinterest
 - home
